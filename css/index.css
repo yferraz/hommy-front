@@ -78,7 +78,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-
+	box-shadow: -1px -1px 19px 4px rgba(240,242,245,1);
 }
 
 #slogan-h1 {
@@ -95,29 +95,75 @@ ul {
 
 /* INFORMACOES */
 .informacoes{
+	text-align: center;
     background-color: #292929;
-    height: 45vh;
-    display: flex;
+    display: relative;
     justify-content: center;
-    align-items: initial;
+    align-items: center;
     padding: 30px;
 }
 
-.div-imagens{
-
+.div-imagens1{
+	margin: 0 auto;
+	background-color: #292929;
+	margin-top: 5vw;
+	width: 50vw;
+	text-align: left;
+	box-shadow: -1px -1px 19px 4px rgba(24,119,242,1);
+	border-radius: 10px;
+	display: flex;
 }
 
-.section_info{
-    padding: 15px;
+.div-imagens2{
+	margin: 0 auto;
+	background-color: #292929;
+	margin-top: 5vw;
+	width: 50vw;
+	text-align: left;
+	box-shadow: -1px -1px 19px 4px rgba(24,119,242,1);
+	border-radius: 10px;
+	display: flex;
 }
+
 
 .imagens_hommy{
-    height: 400px;
+    height: 26vw;
+	padding-top:25px;
+	margin-bottom:25px;
+	margin-left:5vw;
+	margin-right:5px;
 }
 
 #h2-subtitulo{
     color: white;
+	font-size: 2.3em;
+	
 }
+
+#h5-subtitulo{
+    color: white;
+	margin-top: 65px;
+	font-size: 1.1em;
+}
+
+.h2-img{
+    color: white;
+	font-size: 1.3em;
+	padding: 50px;
+}
+
+.texto-img{
+	align-items: center;
+	text-align: left;
+	
+}
+
+.icontxt{
+	width:5vw;
+	height:5vh;
+	display:flex;
+}
+
 /**
 
                 FORMULARIO 
@@ -125,7 +171,8 @@ ul {
 **/
 
 .div-contato {
-    max-width: 400px;
+    
+    
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -136,12 +183,15 @@ ul {
 }
 
 #contato {
+	width: 22vw;
     background: #ffffff;
     padding-top: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
     padding-left: 20px;
-    margin: 80px 0;
+    margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 70px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 

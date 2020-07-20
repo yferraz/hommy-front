@@ -20,7 +20,7 @@
                 <li><a href="">Home</a></li>
                 <li><a href="">Quem somos</a></li>
                 <li><a href="">Aplicativo</a></li>
-                <li><a href="">Contato</a></li>
+                <li onclick="ScrollToBottom()"><a href="">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -28,20 +28,35 @@
         <div class="slogan-back">
             <section class="hero">
                 <div class="slogan">
-                    <h1 id = "slogan-h1">Hommy. O Lugar ideal para encontrar o lar ideal.</h1>
+                    <h1 id="slogan-h1">Hommy. O lugar ideal para encontrar o lar ideal.</h1>
                 </div>
             </section>
         </div>
     </div>
     <div class="informacoes">
         <div>
-            <h2 id = "h2-subtitulo">Uma forma mais fácil e interativa de encontrar a repúplica que você deseja!</h2>
+            <h2 id="h2-subtitulo">Uma forma mais fácil e interativa de encontrar a repúplica que você deseja!</h2>
+            <h5 id=h5-subtitulo> Nosso objetivo é facilitar a sua vida na busca de repúblicas para te deixar mais
+                próximo de sua tão querida(ou não) faculdade! </h5>
         </div>
-        <div class="div-imagens">
-            <section class="section_info">
-                <img class = "imagens_hommy"src="../img/hommy_home.png">
-                <img class = "imagens_hommy"src="../img/hommy_conta.png">
-            </section>
+        <div class="div-imagens1">
+            <img class="imagens_hommy" alt="Imagem do aplicativo mostrando a tela de perfil do usuário com a foto de seus anúncios, botão de anunciar e sessão de comentários recentes."
+            src="../img/hommy_home.png">
+            <div class="texto-img">
+                <h2 class="h2-img">Procure e anuncie repúblicas de uma forma mais fácil!<br><br><br>
+                    Com o nosso aplicativo, você pode buscar diversos tipos de repúblicas para combinar com a sua necessidade e gosto.<br><br><br>
+                Com apenas um clique, pode acessar o seu perfil e gerenciar todos os seus anúncios e comentários recentes. </h2>
+            </div>
+        </div>
+        <div class="div-imagens2">
+            <img class="imagens_hommy" alt="Imagem do aplicativo mostrando a tela inicial com anúncios de repúblicas"src="../img/hommy_conta.png">
+            <div class="texto-img">
+                <h2 class="h2-img">Simples, porém completo. Confira!<br><br><br>
+                    Dê uma olhada nas fotos, confira os comentários a respeito da república que você almeja.<br><br><br>
+                    Com foco na melhor experiência entre locador e locatário, venha aproveitar a experiência!<br><br><br>
+                    Disponível para dispositivos Android e iOS<br><br><br>
+                </h2>
+            </div>
         </div>
     </div>
     <div class="div-contato">
@@ -65,16 +80,16 @@
 
         <section>
 
-            <div onclick="window.open('https://www.facebook.com/')" align="center" class="social" id="facebook"
+            <div onclick="window.open('https://www.facebook.com/')" align="center" alt="facebook" class="social" id="facebook"
                 width="90px" height="90px">
                 <img class="icone" src="../img/facebook.png">
             </div>
 
-            <div onclick="window.open('https://www.twitter.com/')"align="center" class="social" id="twitter">
+            <div onclick="window.open('https://www.twitter.com/')" align="center" alt="twitter" class="social" id="twitter">
                 <img class="icone" src="../img/twitter.png">
             </div>
 
-            <div onclick="window.open('https://www.instagram.com/')"align="center" class="social" id="instagram">
+            <div onclick="window.open('https://www.instagram.com/')" align="center" alt="instagram" class="social" id="instagram">
                 <img class="icone" src="../img/instagram.png">
             </div>
     </div>
