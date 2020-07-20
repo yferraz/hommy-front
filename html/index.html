@@ -1,57 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Hommy - Landing Page</title>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-
-    <div class="header">
-        <header><h1>Hommy</h1></header> <!--adicionar logo-->
-    </div>
-
-    <div class="navbar">
-        <nav>
+    <header class="header">
+        <h1 id="logo"> Hom<span id="corlogo">my </span></h1>
+        <nav class="navbar">
             <ul>
-                <li>Buscar</li>
-                <li>Minha Conta</li>
-                <li>Anunciar</li>
-            </ul>    
+                <li><a href="">Home</a></li>
+                <li><a href="">Quem somos</a></li>
+                <li><a href="">Aplicativo</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
         </nav>
+    </header>
+    <div class="conteudo">
+        <div class="slogan-back">
+            <section class="hero">
+                <div class="slogan">
+                    <h1 id = "slogan-h1">Hommy. O Lugar ideal para encontrar o lar ideal.</h1>
+                </div>
+            </section>
+        </div>
     </div>
-
-    <div class="slogan">
-        <h3>
-            aqui tem um slogan e imagens
-        </h3>
-    </div>
-
     <div class="informacoes">
-        <h2>O que é o Hommy?</h2> <!--add slogan-->
-        <p>Hommy é um aplicativo de aluguel de repúblicas que conecta os estudantes e
-            donos de forma eficiente.
-        </p>
+        <div>
+            <h2 id = "h2-subtitulo">Uma forma mais fácil e interativa de encontrar a repúplica que você deseja!</h2>
+        </div>
+        <div class="div-imagens">
+            <section class="section_info">
+                <img class = "imagens_hommy"src="../img/hommy_home.png">
+                <img class = "imagens_hommy"src="../img/hommy_conta.png">
+            </section>
+        </div>
     </div>
-
-    <div class="formulario">
-        <h4>Fale Conosco!</h4>
-        <form>
-            Nome: <input type="text"><br><br>
-            E-mail: <input type="text"><br><br>
-            <textarea rows = 5 cols = 50>Digite aqui</textarea><br>
-            <button type="submit">Enviar</button>
+    <div class="div-contato">
+        <form id="contato" action="" method="post">
+            <h3>Fale Conosco!</h3>
+            <fieldset>
+                <input placeholder="Nome:" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Email:" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Digite a sua mensagem aqui...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="Enviar" type="submit" id="contato-submit">Enviar</button>
+            </fieldset>
         </form>
-    </div><br>
+    </div>
+    <div id="rodape">
 
-    <div class="footer">
-        <footer>
-            <a href="https://www.instagram.com" > <img src="img/instagram.png" alt ="instagram" height="40" width="40"> </a>
-            <a href="https://www.facebook.com"> <img src="img/facebook.png" alt ="facebook" height="40" width="40"> </a>
-            <a href="https://www.twitter.com"> <img src="img/twitter.png" alt ="twitter" height="40" width="40"> </a>
-        </footer>
+        <section>
+
+            <div onclick="window.open('https://www.facebook.com/')" align="center" class="social" id="facebook"
+                width="90px" height="90px">
+                <img class="icone" src="../img/facebook.png">
+            </div>
+
+            <div onclick="window.open('https://www.twitter.com/')"align="center" class="social" id="twitter">
+                <img class="icone" src="../img/twitter.png">
+            </div>
+
+            <div onclick="window.open('https://www.instagram.com/')"align="center" class="social" id="instagram">
+                <img class="icone" src="../img/instagram.png">
+            </div>
     </div>
 
+    </section> <!-- Fim da Camada section -->
+
+    </div> <!-- Fim da Camada rodape -->
 </body>
+
 </html>

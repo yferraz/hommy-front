@@ -1,0 +1,293 @@
+/*CONFIGS GERAIS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", Helvetica, sans-serif;
+    background: #F0F2F5;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #65676B;
+}
+
+a:hover {
+    color: #1877F2;
+    background: #FFFFFF;
+}
+
+/*HEADER*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    padding: 8px 50px;
+    align-items: center;
+}
+
+#area-logo {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+#logo {
+    color: #4e4e4e;
+}
+
+#corlogo {
+    color: #1877F2;
+}
+
+/*   FIM DO HEADER */
+
+/* CONTEUDO */
+
+.conteudo {
+    height: 1000px;
+    background-image: url(../img/vinicius-amnx-amano-ALpEkP29Eys-unsplash.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.slogan-back {
+    background-color: #292929;
+    padding: 30px;
+    border-radius: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#slogan-h1 {
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* FIM DO CONTEUDO */
+
+/* INFORMACOES */
+.informacoes{
+    background-color: #292929;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    padding: 30px;
+}
+
+.div-imagens{
+
+}
+
+.section_info{
+    padding: 15px;
+}
+
+.imagens_hommy{
+    height: 400px;
+}
+
+#h2-subtitulo{
+    color: white;
+}
+/**
+
+                FORMULARIO 
+                
+**/
+
+.div-contato {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contato input[type="text"], #contato input[type="email"], #contato input[type="tel"], #contato input[type="url"], #contato textarea, #contato button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contato {
+    background: #ffffff;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    margin: 80px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contato h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#contato h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contato input[type="text"], #contato input[type="email"], #contato input[type="tel"], #contato input[type="url"], #contato textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contato input[type="text"]:hover, #contato input[type="email"]:hover, #contato input[type="tel"]:hover, #contato input[type="url"]:hover, #contato textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contato textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contato button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #1877F2;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contato button[type="submit"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contato button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+    text-align: center;
+}
+
+#contato input:focus, #contato textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+/** 
+
+    FIM DO FORMULARIO
+
+**/
+
+/*       FOOTER */
+
+#rodape {
+    background-color: black;
+    /*height: 15vh;
+    max-height: 15vh;*/
+    left: 0;
+    line-height: 4em;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 10000;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone {
+    margin: 0 auto;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+}
+
+section {
+    display: table-cell;
+    vertical-align: middle;
+    float: right;
+    overflow: hidden;
+    padding: 0;
+}
+
+.social {
+    width: 5vh;
+    height: 5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    transition: all 0.2s ease-out;
+    border-radius: 15%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0.4vh;
+}
+
+.social:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+/* FIM DO FOOTER */
